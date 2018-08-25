@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <com.bigsea.MultiPointProgressView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp" />
+
+    <com.bigsea.MultiPointProgressView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        app:progressColor="@android:color/holo_red_dark"
+        app:unProgressColor="@android:color/holo_green_dark" />
+
+    <com.bigsea.MultiPointProgressView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        app:corners="9dp"
+        app:curProgress="22"
+        app:lineHeight="9dp"
+        app:maxProgress="100"
+        app:pointHeight="40dp"
+        app:progressColor="#00ff33"
+        app:unProgressColor="#339393" />
+
+    <com.bigsea.MultiPointProgressView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        app:curProgress="100"
+        app:maxProgress="100"
+        app:pointCount="8" />
+
+
+</LinearLayout>

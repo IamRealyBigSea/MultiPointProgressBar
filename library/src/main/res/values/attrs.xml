@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MultiPointProgressView">
+        <attr name="progressColor" format="color" />
+        <attr name="unProgressColor" format="color" />
+        <attr name="lineHeight" format="dimension" />
+        <attr name="pointHeight" format="dimension" />
+        <attr name="corners" format="dimension" />
+        <attr name="curProgress" format="integer"/>
+        <attr name="maxProgress" format="integer"/>
+        <attr name="pointCount" format="integer"/>
+    </declare-styleable>
+</resources>
